@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Berita terbaru dan terpercaya dari Indonesia. Update harian dari nasional, politik, ekonomi, teknologi, dan lifestyle.">
+  <meta name="keywords" content="berita indonesia, berita terkini, media online, berita nasional, berita politik">
+  <title>Kabartempo | Suarakan Fakta, Sampaikan Bangsa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #ffffff; color: #222; }
+    header { background-color: #9e1b32; color: rgb(255, 255, 255); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+    header h1 { font-family: 'Merriweather Sans', sans-serif; font-size: 1.5rem; }
+    nav a { color: rgb(255, 255, 255); margin: 0 10px; text-decoration: none; font-size: 0.9rem; }
+    nav { display: flex; flex-wrap: wrap; }
+    .hero { background: url('https://source.unsplash.com/featured/?indonesia,news') center/cover no-repeat; color: rgb(0, 0, 0); padding: 4rem 2rem; text-align: center; }
+    .hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1rem; max-width: 600px; margin: auto; }
+    .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .news-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.05); transition: 0.3s; }
+    .news-card:hover { transform: scale(1.02); }
+    .news-card img { width: 100%; height: 180px; object-fit: cover; }
+    .news-card .content { padding: 1rem; }
+    .news-card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .news-card p { font-size: 0.9rem; color: #555; }
+    footer { background: #222; color: #ffffff; text-align: center; padding: 1.5rem; margin-top: 2rem; font-size: 0.9rem; }
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 1.5rem; }
+      nav { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kabartempo</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Nasional</a>
+      <a href="#">Politik</a>
+      <a href="#">Ekonomi</a>
+      <a href="#">Teknologi</a>
+      <a href="#">Lifestyle</a>
+      <a href="#">Opini</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Berita Utama Hari Ini</h2>
+    <p>Ikuti berita terpopuler dan terbaru dari berbagai penjuru Nusantara dengan cepat dan terpercaya.</p>
+  </section>
+
+  <section class="container">
+    <div class="news-grid">
+      <div class="news-card">
+        <img src="https://imagizer.imageshack.com/img922/7954/laaOzq.jpg" alt="Berita Nasional">
+        <div class="content">
+          <h3>Breaking News: Jakarta Diguyur Banjir Lagi</h3>
+          <p>Curah hujan tinggi sejak dini hari menyebabkan banjir di beberapa titik utama Jakarta...</p>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="https://imagizer.imageshack.com/img922/7500/MFE9Tk.jpg" alt="Berita Politik">
+        <div class="content">
+          <h3>Politik Hangat: Parpol Mulai Panaskan Mesin Menuju 2029</h3>
+          <p>Persiapan dini dilakukan oleh beberapa partai besar menjelang pemilu 2029 mendatang...</p>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="https://imagizer.imageshack.com/img922/612/2tvymj.jpg" alt="Berita Teknologi">
+        <div class="content">
+          <h3>Startup Lokal Luncurkan Aplikasi Belanja Ramah Lingkungan</h3>
+          <p>Inovasi terbaru dari anak bangsa kembali muncul, kini hadir aplikasi untuk belanja hijau...</p>
+        </div>
+      </div>
+      <div class="news-card">
+    <img src="https://imagizer.imageshack.com/img924/6074/NvI53o.jpg" alt="Berita Kuliner">
+    <div class="content">
+      <h3>Kuliner Khas Nusantara Masuk Daftar Warisan Dunia UNESCO</h3>
+      <p>Makanan tradisional Indonesia seperti rendang dan pempek kini mendapat pengakuan global...</p>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Kabartempo — Dibuat dengan semangat menyuarakan fakta. Kontak: redaksi@kabartempo.id
+  </footer>
+
+</body>
+</html>
